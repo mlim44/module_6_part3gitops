@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/mlim44/module_6_part3-transactions:9006f4a0f53634f4a7932f5e807286765cd83b00
+          image: ghcr.io/mlim44/module_6_part3-transactions:0d3a047430fda79d0811b256ebbb40b255385461
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
